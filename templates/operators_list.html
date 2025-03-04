@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Operators List</title>
+</head>
+<body>
+    {% include 'navbar.html' %}
+    <h1>Operators</h1>
+    <ul>
+        {% for operator in operators %}
+            <li>{{ operator.name }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
